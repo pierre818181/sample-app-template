@@ -4,4 +4,4 @@
 
 FROM nginx:alpine
 RUN echo "Hi there" > /usr/share/nginx/html/index.html
-RUN "this is the shit"
+RUN echo "this is the shit"
